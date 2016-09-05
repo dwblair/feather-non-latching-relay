@@ -16,9 +16,9 @@ Also, the 'Signal' pin on Non-Latching Relay Featherwing must be connected to a 
 
 # Setup
 
-- copy libraries in 'arduino_libraries' folder into your 'sketchbook/libraries' folder
-- load 'non-latching.ino' code onto Feather 32u4 with 'Non-Latching Relay' shield soldered
-- connect 'Signal' pin to pin defined by 'arduinoRELAY' variable in 'non-latching.ino'
+- Copy libraries in 'arduino_libraries' folder into your 'sketchbook/libraries' folder
+- Load 'non-latching.ino' code onto Feather 32u4 with 'Non-Latching Relay' shield soldered
+- Connect 'Signal' pin to pin defined by 'arduinoRELAY' variable in 'non-latching.ino'
 
 # Control via Serial Port 
 
