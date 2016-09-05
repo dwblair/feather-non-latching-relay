@@ -1,10 +1,8 @@
 # Overview
 
-'non-latching.ino' is Arduino code for the Adafruit Feather 32u4 + Non-Latching Relay FeatherWing.
+'non-latching.ino' is Arduino code for the Adafruit Feather 32u4 + Non-Latching Relay FeatherWing. 'non-latching.ino' allows for control of a relay via commands sent to the Feather over USB Serial.
 
-'non-latching.ino' allows for control of a relay via commands sent to the Feather over USB Serial.
-
-**NOTE**: firmware defaults to relay=on when microcontroller is powered on
+(**NOTE**: firmware defaults to relay=on when microcontroller is powered on.)
 
 The included demo Python script demonstrates interacting with the Feather via the command line..
 
