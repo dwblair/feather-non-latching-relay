@@ -8,12 +8,15 @@
 
 # Usage
 
-- firmware defaults to relay=on when microcontroller is powered on
-- 'ON' -- turn relay on
-- 'OFF' -- turn relay off
-- 'SLEEP waitSeconds sleepSeconds', where waitSeconds = integer number of seconds to wait before turning relay off, and sleepSeconds = integer number of seconds to keep relay off before turning it back on again
+- **Note**: firmware defaults to relay=on when microcontroller is powered on
+- Sending 'ON' via serial port turns relay on  
+- Sending 'OFF' via serial port turns relay off  
+- Sending 'SLEEP waitSeconds sleepSeconds' via serial port will first wait for waitSeconds seconds, then turn relay off for sleepSeconds seconds, then turn relay on.
 
-# Python script
+
+# Example Python script 
+
+To use 'sleep.py':
 
 ``` bash
 sudo python ./sleep.py -d /dev/ttyACM0 -r 9600 -w 10 -s 100
