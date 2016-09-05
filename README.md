@@ -23,9 +23,9 @@ Also, the 'Signal' pin on Non-Latching Relay Featherwing must be connected to a 
 # Usage
 
 - **Note**: firmware defaults to relay=on when microcontroller is powered on
-- Sending 'ON' via serial port turns relay on  
-- Sending 'OFF' via serial port turns relay off  
-- Sending 'SLEEP waitSeconds sleepSeconds' via serial port will 1) wait for waitSeconds seconds; then 2) turn relay off for sleepSeconds seconds; then 3) turn relay on.
+- Sending **ON** via serial port turns relay on  
+- Sending **OFF** via serial port turns relay off  
+- Sending **SLEEP waitSeconds sleepSeconds** via serial port will 1) wait for waitSeconds seconds; then 2) turn relay off for sleepSeconds seconds; then 3) turn relay on.
 
 
 # Example Python script 
