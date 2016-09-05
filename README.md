@@ -1,3 +1,13 @@
+# Quick Start
+
+Relay defaults to 'on' when microcontroller turns on.
+
+Control via serial port:
+ 
+- **ON**: turn relay on
+- **OFF**: turn relay off
+- **SLEEP waitSeconds sleepSeconds**: wait waitSeconds, then turn off relay for sleepSeconds, then turn relay back on again
+
 # Overview
 
 'non-latching.ino' is Arduino code for the Adafruit Feather 32u4 + Non-Latching Relay FeatherWing. 'non-latching.ino' allows for control of a relay via commands sent to the Feather over USB Serial.
@@ -22,7 +32,8 @@ Also, the 'Signal' pin on Non-Latching Relay Featherwing must be connected to a 
 
 # Control via Serial Port 
 
-- **Note**: firmware defaults to relay=on when microcontroller is powered on.
+(**Note**: firmware defaults to relay=on when microcontroller is powered on.)
+
 - Sending **ON** via serial port turns relay on  
 - Sending **OFF** via serial port turns relay off  
 - Sending **SLEEP waitSeconds sleepSeconds** via serial port will 1) wait for waitSeconds seconds; then 2) turn relay off for sleepSeconds seconds; then 3) turn relay on.
