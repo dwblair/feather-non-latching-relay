@@ -9,7 +9,7 @@
 - **Note**: firmware defaults to relay=on when microcontroller is powered on
 - Sending 'ON' via serial port turns relay on  
 - Sending 'OFF' via serial port turns relay off  
-- Sending 'SLEEP waitSeconds sleepSeconds' via serial port will wait for waitSeconds seconds then turn relay off for sleepSeconds seconds, then turn relay on.
+- Sending 'SLEEP waitSeconds sleepSeconds' via serial port will 1) wait for waitSeconds seconds; then 2) turn relay off for sleepSeconds seconds; then 3) turn relay on.
 
 
 # Example Python script 
