@@ -16,7 +16,8 @@
 
 # Example Python script 
 
-To use 'sleep.py':
+To use 'sleep.py' to connect to the Feather on port /dev/ttyACMO at 9600 baud, wait for 10 seconds, then turn off the relay for 10 seconds before turning it back on again:
+
 
 ``` bash
 sudo python ./sleep.py -d /dev/ttyACM0 -r 9600 -w 10 -s 100
