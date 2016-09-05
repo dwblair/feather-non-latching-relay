@@ -2,23 +2,19 @@
 
 'non-latching.ino' is Arduino code for the Adafruit Feather 32u4 + Non-Latching Relay FeatherWing. 'non-latching.ino' allows for control of a relay via commands sent to the Feather over USB Serial.
 
-(**NOTE**: firmware defaults to relay=on when microcontroller is powered on.)
-
-The included demo Python script demonstrates interacting with the Feather via the command line..
-
-See below for detailed setup and usage.
+The included demo Python script demonstrates interacting with the Feather via the command line.
 
 # Requirements
 
 'non-latching.ino' requires the 'Arduino-SerialCommand' library (included in this repository)
 
-Also, the 'Signal' pin on Non-Latching Relay Featherwing must be connected to a digital pin on the Feather (the pin # can be set in the code; default: pin #6).
+The 'Signal' pin on Non-Latching Relay Featherwing must be connected to a digital pin on the Feather (the pin # can be set in the code; default: pin #6).
 
 # Setup
 
-- Copy libraries in 'arduino_libraries' folder into your 'sketchbook/libraries' folder
-- Load 'non-latching.ino' code onto Feather 32u4 with 'Non-Latching Relay' shield soldered
-- Connect 'Signal' pin to pin defined by 'arduinoRELAY' variable in 'non-latching.ino'
+1. Copy libraries in 'arduino_libraries' folder into your 'sketchbook/libraries' folder
+2. Load 'non-latching.ino' code onto Feather 32u4 with 'Non-Latching Relay' shield soldered
+3. Connect 'Signal' pin to pin defined by 'arduinoRELAY' variable in 'non-latching.ino'
 
 # Control via Serial Port 
 
